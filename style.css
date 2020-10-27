@@ -1,0 +1,158 @@
+
+*{padding: 0;/* margin: 0; */box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+li{ list-style: none; }
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+img{max-width: 100%;}
+
+.container{
+    width: calc(100% - 200px);
+    margin: auto;}
+    
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+
+.col-1-1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 100px;
+}
+.col-1-1 .comment{
+    color: #a19fa5;
+}
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+.pad-left{
+    padding-left: 100px;
+}
+.pad-right{
+    padding-right: 100px;
+}
+
+header{}
+.logo{
+    flex: 0 0 auto;
+    width: 15%;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 30px;
+    display: block;
+}
+nav ul li a:hover{
+    background: #0c0c0c;
+    color: white;
+}
+
+/*banner section css*/
+.banner-section{}
+.banner-section img{
+    width: 100%;
+    flex: 0 0 auto;
+}
+/**********************
+blog-section
+********************/
+
+.blog-section{}
+article{}
+article span{
+    text-transform: uppercase;
+    color: #a19fa5;
+    display: block;
+}
+article h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+article h1 a{}
+article h1 a:hover{}
+article a{
+    text-transform: capitalize;
+    color: #a19fa5;
+    text-decoration: none;
+    color: black;
+}
+article p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+article img{
+    width: 100%;
+}
+
+/*blog section******/
+
+footer{
+
+background: #F0F0F0;
+}
+footer .col-2-1{
+    padding: 30px 100px;
+}
+.footer-menu{}
+.footer-menu li{}
+.footer-menu li a{
+    display: block;
+    color: black;
+    padding-left:  20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-menu li a:hover{}
+
+
+ul.social-link{
+    justify-content: flex-end;
+}
+ul.social-link li {}
+ul.social-link li span{
+    display: block;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.social-link li a{
+    display: block;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.social-link li a:hover{}
+
+
